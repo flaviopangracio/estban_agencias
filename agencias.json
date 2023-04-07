@@ -1,0 +1,97 @@
+[
+    {
+        "name": "cnpj",
+        "type": "STRING",
+        "description": "Cadastro Nacional de Pessoa Jurídica (CNPJ) básico (8 primeiros dígitos)",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sequencial_do_cnpj",
+        "type": "STRING",
+        "description": "Sequencial do Cadastro Nacional de Pessoa Jurídica (CNPJ) (4 dígitos)",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "dv_do_cnpj",
+        "type": "STRING",
+        "description": "Dígito verificador do Cadastro Nacional de Pessoa Jurídica (CNPJ) (2 dígitos)",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "nome_instituicao",
+        "type": "STRING",
+        "description": "Nome da instituição bancária",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "segmento",
+        "type": "STRING",
+        "description": "Número do segmento bancário",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cod_compe_ag",
+        "type": "STRING",
+        "description": "Código do Sistema de Operações Monetárias e Compensações de Outros Papéis (COMPE)",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "nome_agencia",
+        "type": "STRING",
+        "description": "Nome da agência bancária",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "endereco",
+        "type": "STRING",
+        "description": "Endereço da agência",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "bairro",
+        "type": "STRING",
+        "description": "Bairro da agência",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cep",
+        "type": "STRING",
+        "description": "CEP da agência",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "municipio",
+        "type": "STRING",
+        "description": "Município da agencia",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "uf",
+        "type": "STRING",
+        "description": "Unidade Federativa da Agência",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ano",
+        "type": "STRING",
+        "description": "Ano base da publicação no BCB",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "mes",
+        "type": "STRING",
+        "description": "Mês base da publicação no BCB",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "full_endereco",
+        "type": "STRING",
+        "description": "Endereço completo da agência",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cnpj_full",
+        "type": "STRING",
+        "description": "CNPJ completo"
+    }
+]

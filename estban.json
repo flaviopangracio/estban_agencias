@@ -1,0 +1,398 @@
+[
+    {
+        "mode": "NULLABLE",
+        "name": "ano",
+        "type": "STRING",
+        "description": "Ano base"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "mes",
+        "type": "STRING",
+        "description": "Mês base"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "uf",
+        "type": "STRING",
+        "description": "Sigla da Unidade Federativa"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "cod_mun",
+        "type": "STRING",
+        "description": "Código do município"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "municipio",
+        "type": "STRING",
+        "description": "Nome do município"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "cod_mun_ibge",
+        "type": "STRING",
+        "description": "ID Município - IBGE 7 Dígitos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "cnpj",
+        "type": "STRING",
+        "description": "Cadastro Nacional de Pessoa Jurídica (CNPJ) básico (8 primeiros dígitos)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "nome_instituicao",
+        "type": "STRING",
+        "description": "Nome da instituição financeira"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "cnpj_agencia",
+        "type": "STRING",
+        "description": "CNPJ da agência bancária"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "110",
+        "type": "FLOAT",
+        "description": "Disponibilidades"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "111",
+        "type": "FLOAT",
+        "description": "Caixa"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "112",
+        "type": "FLOAT",
+        "description": "Depósitos bancários"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "113",
+        "type": "FLOAT",
+        "description": "Banco Central - Reservas livres em espécie"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "114",
+        "type": "FLOAT",
+        "description": "Aplicações temporárias em Ouro"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "120",
+        "type": "FLOAT",
+        "description": "Aplicações interfinanceiras de liquidez"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "130",
+        "type": "FLOAT",
+        "description": "Títulos e valores mobiliários e instrumentos financeiros derivativos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "140",
+        "type": "FLOAT",
+        "description": "Relações interfinanceiras e interdependências"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "141_142",
+        "type": "FLOAT",
+        "description": "Correspondentes no exterior + Correspondentes no país"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "143",
+        "type": "FLOAT",
+        "description": "Dependências da matriz e congeneres no exterior"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "144_145_146_147_152",
+        "type": "FLOAT",
+        "description": "Cobrança própria em trânsito + Ordens de pagamento + Valores de ligadas e de terceiros em trânsito + Dependências no país + Suprimentos interdependências"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "153",
+        "type": "FLOAT",
+        "description": "Relações com a carteira de câmbio e desenvolvimento (Ativo)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "158",
+        "type": "FLOAT",
+        "description": "Outras relações interfinanceiras e interdependências"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "160",
+        "type": "FLOAT",
+        "description": "Operações de crédito"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "161",
+        "type": "FLOAT",
+        "description": "Empréstimos e títulos descontados"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "162",
+        "type": "FLOAT",
+        "description": "Financiamentos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "163",
+        "type": "FLOAT",
+        "description": "Financiamentos rurais à agricultura – custeio/investimento"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "164",
+        "type": "FLOAT",
+        "description": "Financiamentos rurais à pecuária - custeio/investimento"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "165",
+        "type": "FLOAT",
+        "description": "Financiamentos rurais à agricultura – comercialização"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "166",
+        "type": "FLOAT",
+        "description": "Financiamentos rurais à pecuária – comercialização"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "167_168",
+        "type": "FLOAT",
+        "description": "Financiamentos agroindustriais + Rendas a apropriar de operações de financiamentos rurais e agroindustriais"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "169",
+        "type": "FLOAT",
+        "description": "Financiamentos imobiliários"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "171",
+        "type": "FLOAT",
+        "description": "Outras operações de crédito"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "172",
+        "type": "FLOAT",
+        "description": "Outros créditos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "173",
+        "type": "FLOAT",
+        "description": "Créditos em liquidação"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "174",
+        "type": "FLOAT",
+        "description": "Provisão para operações de crédito"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "176",
+        "type": "FLOAT",
+        "description": "Operações especiais"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "180",
+        "type": "FLOAT",
+        "description": "Arrendamento mercantil"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "184",
+        "type": "FLOAT",
+        "description": "Provisão para operações de arrendamento mercantil"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "190",
+        "type": "FLOAT",
+        "description": "Outros valores e bens"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "200",
+        "type": "FLOAT",
+        "description": "Permanente"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "300",
+        "type": "FLOAT",
+        "description": "Contas de compensação"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "399",
+        "type": "FLOAT",
+        "description": "Total do ativo"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "401_402_404_411_412_413_414_415_416_417_418_419",
+        "type": "FLOAT",
+        "description": "Depósitos à vista – governos: serviços públicos + atividades empresariais + especiais do tesouro nacional + saldos credores em contas de empréstimos e financiamentos – CFP. Depósitos à vista - setor privado: de pessoas físicas + de pessoas jurídicas + de instituições do sistema financeiro - judiciais + obrigatórios + para investimentos + vinculados + demais depósitos + saldos credores em contas de empréstimos e financiamentos – 419 outros"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "420",
+        "type": "FLOAT",
+        "description": "Depósitos de poupança"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "430",
+        "type": "FLOAT",
+        "description": "Depósitos interfinanceiros (Total)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "431",
+        "type": "FLOAT",
+        "description": "Depósitos interfinanceiros"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "432",
+        "type": "FLOAT",
+        "description": "Depósitos a prazo"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "433",
+        "type": "FLOAT",
+        "description": "Captações no mercado aberto"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "440",
+        "type": "FLOAT",
+        "description": "Relações interfinanceiras e interdependências"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "441_442",
+        "type": "FLOAT",
+        "description": "Correspondentes no exterior + Correspondentes no país"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "443",
+        "type": "FLOAT",
+        "description": "Dependências da matriz e congeneres no exterior"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "444_445_446_447_456_458",
+        "type": "FLOAT",
+        "description": "Cobrança própria em trânsito + Ordens de pagamento + Valores de ligadas e de terceiros em trânsito + Dependências no país + Suprimentos interdepartamentais + Outras relações interfinanceiras e interdependências"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "457",
+        "type": "FLOAT",
+        "description": "Relações com a carteira de câmbio e desenvolvimento (Passivo)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "460",
+        "type": "FLOAT",
+        "description": "Obrigações por empréstimos e repasses"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "461_462_463_467_468",
+        "type": "FLOAT",
+        "description": "Banco central - assistência financeira + Redescontos + Refinanciamentos + Operações especiais + Outras obrigações por empréstimos e repasses"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "470",
+        "type": "FLOAT",
+        "description": "Instrumentos financeiros derivativos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "480",
+        "type": "FLOAT",
+        "description": "Obrigações por recebimentos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "481_482_483_484_485_487",
+        "type": "FLOAT",
+        "description": "IOF + Contribuições previdenciárias + Tributos estaduais e municipais + Tributos federais + FGTS + Demais recebimentos"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "486",
+        "type": "FLOAT",
+        "description": "PIS/PASEP"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "490_500",
+        "type": "FLOAT",
+        "description": "Cheques administrativos + Outras obrigações"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "610",
+        "type": "FLOAT",
+        "description": "Patrimônio líquido"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "710",
+        "type": "FLOAT",
+        "description": "Contas de resultado"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "711",
+        "type": "FLOAT",
+        "description": "Contas credoras"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "712",
+        "type": "FLOAT",
+        "description": "Contas devedoras"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "800",
+        "type": "FLOAT",
+        "description": "Contas de compensação"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "899",
+        "description": "Total do passivo",
+        "type": "FLOAT"
+    }
+]
